@@ -1,0 +1,10 @@
+.category {
+  background-color: #8FD9A8;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.category-img {
+  height: 50px;
+}

@@ -23,7 +23,7 @@ section {
 .following, .products {
   background-color: #28B5B5;
   border-radius: 10px;
-  display: inline;
+  display: inline-block;
   padding: 20px;
   margin: 0 30px;
 }

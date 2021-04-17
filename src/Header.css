@@ -1,0 +1,36 @@
+.Circle-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+header {
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid #8FD9A8;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+}
+.circle-logo {
+  height: 45px;
+}
+
+.nav {
+  display: flex;
+  justify-content: right;
+  margin-right: 20px;
+}
+
+.nav-image {
+  color: #8FD9A8;
+  margin: 0 10px;
+}

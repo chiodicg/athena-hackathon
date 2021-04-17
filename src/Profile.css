@@ -48,3 +48,13 @@ p, h4 {
   margin: 0px;
   text-align: left;
 }
+
+.monthly-report img {
+  margin: 15px 0;
+  width: 60vw;
+}
+
+.carbon-footprint img {
+  margin: 15px 0;
+  width: 40vw;
+}

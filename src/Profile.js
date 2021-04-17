@@ -1,5 +1,7 @@
 import React from "react";
 import './Profile.css';
+import monthlyRep from './monthly-rep.png'
+import carbonFoot from './carbon-foot.png'
 
 export default function Profile() {
   return (
@@ -23,11 +25,11 @@ export default function Profile() {
       </section>
       <section className="carbon-footprint">
         <h4>Your Carbon Footprint Meter</h4>
-        <p></p>
+        <img src={carbonFoot} alt="Carbon foot print data and graphs" />
       </section>
       <section className="monthly-report">
         <h4>Monthly Report</h4>
-        <p></p>
+        <img src={monthlyRep} alt="Bar graph of monthly usage in kWh" />
       </section>
     </div>
   )

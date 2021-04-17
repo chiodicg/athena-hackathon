@@ -1,0 +1,50 @@
+.photo-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.fa-cog {
+  color: gray;
+  display: block;
+  float: right;
+  margin-right: 30px;
+}
+.profile-img {
+  margin: 0 auto;
+  height: 150px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+section {
+  margin: 50px 20px;
+}
+.following, .products {
+  background-color: #28B5B5;
+  border-radius: 10px;
+  display: inline;
+  padding: 20px;
+  margin: 0 30px;
+}
+
+.details, .monthly-report {
+  background-color: #8FD9A8;
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 20px;
+  width: 80vw;
+}
+
+.carbon-footprint {
+  background-color: #28B5B5;
+  border-radius: 10px;
+  margin: 30px auto;
+  padding: 20px;
+  width: 80vw;
+}
+
+p, h4 {
+  margin: 0px;
+  text-align: left;
+}

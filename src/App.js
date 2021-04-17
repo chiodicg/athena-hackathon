@@ -1,7 +1,7 @@
 import './App.css';
 import Content from './ProductLife'
 import Header from './Header'
-import Feed from './Feed'
+import Social from './Social'
 import ProductLife from './ProductLife'
 import Profile from './Profile'
 import Company from './Company'
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <div className="container">
-        <Feed />
+        <Social />
         <ProductLife />
         <Profile />
         <Company />

@@ -1,0 +1,45 @@
+.title {
+  align-content: center;
+  background-color: #28B5B5;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  width: 80vw;
+}
+
+.body {
+  align-content: center;
+  background-color: #8FD9A8;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto 20px;
+  width: 80vw;
+}
+
+p {
+  align-self: center;
+  font-size: 1rem;
+  margin: 0 auto;
+  padding: 20px 20px 20px 0px;
+}
+
+img.logo {
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top: 5px;
+  height: 50px;
+  width: 50px;
+}
+
+img.feed {
+  border-radius: 20px;
+  margin: 20px;
+  width: 200px;
+}

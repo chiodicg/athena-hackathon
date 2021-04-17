@@ -1,10 +1,23 @@
 .category {
   background-color: #8FD9A8;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  height: 70px;
   margin: 20px;
   padding: 20px;
 }
 
 .category-img {
+  align-self: center;
+  display: flex;
   height: 50px;
+  margin-right: 20px;
+  width: 50px;
 }
+
+strong {
+  align-self: center;
+  display: flex;
+}
+

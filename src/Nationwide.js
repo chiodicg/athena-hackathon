@@ -1,5 +1,7 @@
 import React from "react";
 import './Nationwide.css';
+import { NavLink } from "react-router-dom";
+
 
 export default function Nationwide() {
   return (
@@ -12,7 +14,7 @@ export default function Nationwide() {
         <div className="stats">
           <div className="rating">
             Circle rating
-            <strong>5 / 5 <i class="fas fa-info-circle" /></strong> 
+            <strong>5 / 5 <NavLink to="/rating"><i class="fas fa-info-circle" /></NavLink></strong> 
           </div>
           <div className="follow">
             <strong>Follow</strong>

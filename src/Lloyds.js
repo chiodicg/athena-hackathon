@@ -1,10 +1,8 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import './Lloyds.css';
 
 export default function Lloyds() {
-  function showInfo() {
-    
-  }
   return (
     <div className="lloyds">
       <div className="heading">
@@ -15,7 +13,7 @@ export default function Lloyds() {
         <div className="stats">
           <div className="rating">
             Circle rating
-            <strong>5 / 5 <i class="fas fa-info-circle" onClick={showInfo} /></strong> 
+            <strong>5 / 5 <NavLink to="/rating"><i class="fas fa-info-circle" /></NavLink></strong> 
           </div>
           <div className="follow">
             <strong>Follow</strong>

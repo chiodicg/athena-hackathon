@@ -53,6 +53,11 @@
   width: 100px;
 }
 
+.lloyds a {
+  color: white;
+  margin-left: 10px;
+}
+
 .lloyds .rating {
   flex-direction: column;
 }

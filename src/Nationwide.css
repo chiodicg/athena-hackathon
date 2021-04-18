@@ -17,6 +17,11 @@
   flex-direction: row;
 }
 
+.nationwide a {
+  color: white;
+  margin-left: 10px;
+}
+
 .nationwide .line {
   align-self: center;
   display: flex;

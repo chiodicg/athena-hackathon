@@ -118,6 +118,11 @@
   text-align: justify;
 }
 
+.cisco a {
+  color: white;
+  margin-left: 10px;
+}
+
 .cisco .line-econ {
   align-self: center;
   display: flex;

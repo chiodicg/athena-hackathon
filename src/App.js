@@ -8,6 +8,8 @@ import Cisco from './Cisco'
 import Nationwide from './Nationwide'
 import Lloyds from './Lloyds'
 import About from './About'
+import Rating from './Rating'
+
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -40,6 +42,9 @@ function App() {
             </Route>
             <Route exact path="/about">
               <About />
+            </Route>
+            <Route exact path="/rating">
+              <Rating />
             </Route>
           </Switch>
         </div>

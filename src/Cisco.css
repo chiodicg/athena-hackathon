@@ -1,0 +1,128 @@
+.cisco .heading {
+  align-content: center;
+  background-color: #4B778D;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 20px 0;
+  width: 80vw;
+} 
+
+.cisco .company-name {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.cisco .line {
+  align-self: center;
+  display: flex;
+  background-color: white;
+  margin: 0 20px;
+  height: 5px;
+  width: 25vw;
+}
+.cisco img.logo {
+  align-self: center;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  margin: 8px 20px;
+  height: 60px;
+  width: 60px;
+}
+
+.cisco .stats {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.cisco .rating, .cisco .follow {
+  background-color: #28B5B5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100px;
+}
+
+.cisco .rating {
+  flex-direction: column;
+}
+
+.cisco form {
+  margin-top: 20px;
+}
+
+.cisco input {
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 50px;
+  text-align: center;
+  width: 300px;
+}
+
+.cisco .company-info, .cisco .company-econ {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 80vw;
+}
+
+.cisco .line-info {
+  align-self: center;
+  display: flex;
+  background-color: #8FD9A8;
+  margin-left: 30px;
+  height: 5px;
+  width: 50vw;
+}
+
+.cisco .info {
+  align-content: center;
+  background-color: #8FD9A8;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px auto;
+  padding: 20px 0;
+  width: 80vw;
+} 
+
+.cisco .econ {
+  align-content: center;
+  background-color: #28B5B5;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px auto;
+  padding: 20px 0;
+  width: 80vw;
+} 
+
+.cisco p {
+  color: black;
+  padding: 0 30px;
+  text-align: justify;
+}
+
+.cisco .line-econ {
+  align-self: center;
+  display: flex;
+  background-color: #28B5B5;
+  margin-left: 30px;
+  height: 5px;
+  width: 50vw;
+}

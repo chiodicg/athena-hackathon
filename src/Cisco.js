@@ -33,7 +33,7 @@ export default function Cisco() {
       </div>
       <div className="econ">
         <p>Cisco’s holistic approach extends from how they design, build, and deliver products, to how they value the assets we have and turn them into new products. They also apply Cisco technology to support their customers in their own circular transformations. Cisco was a founding member of the Ellen MacArthur Foundation (EMF), which allows us to partner with other companies to achieve a circular economy.</p>
-<p>Cisco is increasingly adopting circular design principles, including transforming their e-waste into recycled plastic that is used in some of their latest products.</p>
+        <p>Cisco is increasingly adopting circular design principles, including transforming their e-waste into recycled plastic that is used in some of their latest products.</p>
       </div>
     </div>
   )

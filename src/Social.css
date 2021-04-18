@@ -1,3 +1,4 @@
-.social-media Navlink {
+.social-media a {
+  color: black;
   text-decoration: none;
 }

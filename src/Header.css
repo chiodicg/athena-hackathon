@@ -1,4 +1,4 @@
-.Circle-logo {
+header .Circle-logo {
   height: 40px;
 }
 
@@ -15,22 +15,22 @@ header {
   width: 100%;
 }
 
-.logo {
+header .logo {
   display: flex;
   justify-content: left;
   margin-left: 20px;
 }
-.circle-logo {
+header .circle-logo {
   height: 45px;
 }
 
-.nav {
+header .nav {
   display: flex;
   justify-content: right;
   margin-right: 20px;
 }
 
-.nav-image {
+header .nav-image {
   color: #8FD9A8;
   margin: 0 10px;
 }

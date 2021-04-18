@@ -6,7 +6,7 @@ function Header() {
   return (
       <header>
         <div className="logo">
-          <img src={logo} className="circle-logo" alt="logo" />
+          <NavLink to="/about"><img src={logo} className="circle-logo" alt="logo" /></NavLink>
         </div>
         <div className="nav">
           <NavLink to="/product-life"><i className="fas fa-recycle fa-2x nav-image" alt="Go to Extend Product page"></i>

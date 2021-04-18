@@ -4,6 +4,10 @@ import Social from './Social'
 import ProductLife from './ProductLife'
 import Profile from './Profile'
 import Company from './Company'
+import Cisco from './Cisco'
+import Nationwide from './Nationwide'
+import Lloyds from './Lloyds'
+import About from './About'
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -24,6 +28,18 @@ function App() {
             </Route>
             <Route exact path="/company">
               <Company />
+            </Route>
+            <Route exact path="/company/cisco">
+              <Cisco />
+            </Route>
+            <Route exact path="/company/lloyds">
+              <Lloyds />
+            </Route>
+            <Route exact path="/nationwide">
+              <Nationwide />
+            </Route>
+            <Route exact path="/about">
+              <About />
             </Route>
           </Switch>
         </div>

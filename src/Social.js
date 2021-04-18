@@ -1,5 +1,8 @@
 import React from "react";
-import Feed from './Feed'
+import Feed from './Feed';
+import { NavLink } from "react-router-dom";
+import './Social.css';
+
 
 export default function Social() {
   const ciscoLogo = `https://www.vortex6.com/wp-content/uploads/2019/07/cisco-logo.png`
@@ -17,9 +20,15 @@ export default function Social() {
 
   return (
     <div className="social-media">
-      <Feed company="Cisco" logo={ciscoLogo} text={ciscoText} image={ciscoImage} alt={ciscoImageAlt} />
-      <Feed company="Lloyds Bank" logo={lloydsLogo} text={lloydsText} image={lloydsImage} alt={lloydsImageAlt} />
-      <Feed company="Nationwide" logo={nationwideLogo} text={nationwideText} image={nationwideImage} alt={nationwideImageAlt} />
+      <NavLink to="/company/cisco">
+        <Feed company="Cisco" logo={ciscoLogo} text={ciscoText} image={ciscoImage} alt={ciscoImageAlt} />
+      </NavLink>
+      <NavLink to="/company/lloyds">
+        <Feed company="Lloyds Bank" logo={lloydsLogo} text={lloydsText} image={lloydsImage} alt={lloydsImageAlt} />
+      </NavLink>
+      <NavLink to="/company/nationwide">
+        <Feed company="Nationwide" logo={nationwideLogo} text={nationwideText} image={nationwideImage} alt={nationwideImageAlt} />
+      </NavLink>
     </div>
   )
 }
